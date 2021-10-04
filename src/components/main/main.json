@@ -1,0 +1,31 @@
+[
+  {
+    "src": "https://xn--80adjkr6adm9b.xn--p1ai/static/sv/img/index/sets_tablet.png",
+    "title": "Сеты"
+  },
+  {
+    "src": "https://xn--80adjkr6adm9b.xn--p1ai/static/sv/img/index/rolls_desktop.png",
+    "title": "Роллы"
+  },
+  {
+    "src": "https://xn--80adjkr6adm9b.xn--p1ai/static/sv/img/index/sushi_desktop.png",
+    "title": "Суши"
+  },
+  {
+    "src": "https://xn--80adjkr6adm9b.xn--p1ai/static/sv/img/index/fried_rolls_desktop.png",
+    "title": "Жареные суши"
+  },
+  {
+    "src": "https://xn--80adjkr6adm9b.xn--p1ai/static/sv/img/index/baked_rolls_desktop.png",
+    "title": "Запечёные суши"
+  },
+  {
+    "src": "https://xn--80adjkr6adm9b.xn--p1ai/static/sv/img/index/soups_desktop.png",
+    "title": "Супы"
+  },
+  {
+    "src": "https://xn--80adjkr6adm9b.xn--p1ai/static/sv/img/index/tempura_desktop.png",
+    "image": "https://xn--80adjkr6adm9b.xn--p1ai/static/sv/img/index/beverages_tablet.png",
+    "title": "Темпура"
+  }
+]

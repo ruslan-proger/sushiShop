@@ -1,0 +1,56 @@
+.catalog {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  //display: block;
+  //overflow: hidden;
+
+  &__card {
+    cursor: pointer;
+    width: 600px;
+    height: 200px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    background-color: #efeff4;;
+    display: flex;
+
+    &-description {
+      &-text {
+        font-size: 24px;
+      }
+
+      &-desc, &-size {
+        font-size: 13px;
+        line-height: 1.2em;
+        color: #666;
+      }
+
+      &-price-block {
+        display: flex;
+        margin-top: 90px;
+        margin-left: 130px;
+
+        button {
+          cursor: pointer;
+          padding: 10px;
+          border-radius: 4px;
+          background-color: #eb1f40;
+          text-align: center;
+          text-transform: uppercase;
+          color: #fff;
+          font-weight: bold;
+          border: 0;
+        }
+      }
+
+      &-price {
+        font-size: 24px;
+        color: #333;
+        text-align: right;
+        padding-right: 10%;
+      }
+    }
+  }
+}
