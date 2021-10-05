@@ -1,0 +1,59 @@
+
+.home {
+  box-sizing: border-box;
+  display: flex;
+  margin-top: 130px;
+  margin-left: 40px;
+  justify-content: center;
+
+  &__containers {
+    .clearfix {
+      display: flex;
+      margin-top: 150px;
+    }
+
+    a {
+      margin-left: 50px;
+    }
+
+    a:first-child {
+      margin-left: 0;
+    }
+
+    .sushi {
+      width: 300px;
+      height: 350px;
+      background: url(http://545.wp.shabloner.ru/themes/shabloner_545/files/ct_block_item_78987_2_3_image.jpg) center center / cover no-repeat;
+      opacity: 1;
+    }
+
+    .rolls {
+      width: 300px;
+      height: 350px;
+      background: url(http://545.wp.shabloner.ru/themes/shabloner_545/files/ct_block_item_78987_751343_3_image.jpg) center center / cover no-repeat;
+      opacity: 1;
+    }
+
+    .sets {
+      width: 300px;
+      height: 350px;
+      background: url(http://545.wp.shabloner.ru/themes/shabloner_545/files/ct_block_item_78987_1_3_image.jpg) center center / cover no-repeat;
+      opacity: 1;
+    }
+
+    .drinks {
+      width: 300px;
+      height: 350px;
+      background: url(http://545.wp.shabloner.ru/themes/shabloner_545/files/ct_block_item_78987_3_3_image.jpg) center center / cover no-repeat;
+      opacity: 1;
+    }
+
+    .text-overlay {
+      position: absolute;
+      bottom: 380px;
+      color: white;
+      font-weight: bold;
+      font-size: 30px;
+    }
+  }
+}

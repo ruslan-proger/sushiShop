@@ -1,0 +1,98 @@
+.header {
+  width: 100%;
+  padding: 0px 40px 0px 40px;
+  margin: 0;
+  transition: line-height 0.2s linear, box-shadow 0.2s linear;
+  top: 0;
+  background: rgba(245, 245, 245, 0.97);
+  position: fixed;
+  z-index: 3;
+
+  &__nav {
+    display: flex;
+
+    &-container {
+      a {
+        text-decoration: none;
+      }
+
+      h1 {
+        cursor: pointer;
+        font-size: 30px;
+        color: red;
+        text-decoration: none;
+      }
+    }
+  }
+
+  &__nav-navbar {
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+  }
+
+  &__nav-item {
+    display: flex;
+    margin-left: 15px;
+    cursor: pointer;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  &__nav-items {
+    margin-top: 20px;
+    list-style: none;
+
+    div {
+      color: #999;
+    }
+
+    div:hover {
+      color: red;
+    }
+  }
+
+  &__nav-items > ul {
+    display: flex;
+  }
+  
+  &__nav-link {
+    text-decoration: none;
+  }
+
+  &__nav-pages {
+    margin-left: 500px;
+    margin-top: 20px;
+
+    div {
+      color: #999;
+    }
+
+    div:hover {
+      color: red;
+    }
+  }
+
+  &__nav-pages > ul {
+    display: flex;
+  }
+
+  &__button {
+    button {
+      margin-left: 50px;
+      margin-top: 30px;
+      padding: 10px 20px;
+      border-radius: 19px;
+      background-color: white;
+      color: #9b9b9b;
+      cursor: pointer;
+    }
+
+    button:hover {
+      color: red;
+      text-decoration: none;
+    }
+  }
+}
